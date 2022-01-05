@@ -23,7 +23,7 @@ public class LoanPage extends CommonUI {
 	@FindBy(xpath = "//*[@id=\"mat-option-3\"]/span")
 	WebElement retirementLoanType;
 	
-	@FindBy(xpath = "//*[@placeholde='Ex. 1 Year'")
+	@FindBy(xpath = "//*[@placeholder='Ex. 1 Year']")
 	WebElement yearsToRepayField;
 	
 	@FindBy(xpath = "//*[@id=\"cdk-step-content-0-0\"]/form/div/button/span")
@@ -41,10 +41,10 @@ public class LoanPage extends CommonUI {
 	@FindBy(xpath = "//*[@id=\"cdk-step-content-0-1\"]/form/div/button[2]/span")
 	WebElement secondNextButton;
 	
-	@FindBy(xpath = "//*[@id=\"cdk-step-content-0-2\"]/div/button[1]/span")
+	@FindBy(css = ".v24DomSyncDenyAgent.mat-raised-button.mat-primary")
 	WebElement confirmButton;
 	
-	@FindBy(xpath = "/html/body/app-root/mat-sidenav-container/mat-sidenav-content/main/app-loan-success/div/div/div/div/mat-card/mat-card-title")
+	@FindBy(xpath = "/app-loan-success/div/div/div/div/mat-card/mat-card-title")
 	WebElement submissionSuccessMessage;
 	
 	public LoanPage() {

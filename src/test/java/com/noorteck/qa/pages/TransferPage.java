@@ -23,7 +23,7 @@ public class TransferPage extends CommonUI {
 	@FindBy(xpath = "//*[@id=\"mat-option-7\"]/span")
 	WebElement investingAccountDropDown;
 	
-	@FindBy(xpath = "//*[@placeholder='Amount']")
+	@FindBy(xpath = "//*[@placeholder='Ex. 10000']")
 	WebElement amountField;
 	
 	@FindBy(xpath = "//*[@placeholder='Social Security Number']")
